@@ -1,0 +1,17 @@
+{
+  "name": "arb-flash-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startFTMTest": "set NETWORK=FTMTEST&& node index.js",
+    "startFTMLive": "set NETWORK=FTMLIVE&& node index.js",
+    "startOneLive": "set NETWORK=ONELIVE&& node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.6.5"
+  }
+}
